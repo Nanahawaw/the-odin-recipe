@@ -76,3 +76,56 @@ section nav .icon i {
 section nav .icon i:hover {
   color: rgb(242, 104, 0);
 }
+section .main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  top: 100px;
+}
+
+section .main .main-text h1 {
+  font-size: 50px;
+  position: relative;
+  top: -170px;
+  left: 20px;
+}
+section .main .main-image img {
+  width: 550px;
+  height: auto;
+}
+section .main .main-text h1 span {
+  margin-left: 15px;
+  color: rgb(242, 104, 0);
+  line-height: 22px;
+  font-size: 55px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section p {
+  width: 600px;
+  text-align: justify;
+  position: relative;
+  left: 90px;
+  bottom: 350px;
+  line-height: 22px;
+}
+.main-button {
+  cursor: pointer;
+}
+.Explore-btn {
+  border: 1px solid;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  background-color: #f67e31;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  bottom: 40px;
+  right: -89px;
+  transition: 200ms ease-in-out;
+}
+.Explore-btn:hover {
+  color: #000;
+  background-color: antiquewhite;
+}
