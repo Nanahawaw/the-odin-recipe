@@ -1,0 +1,55 @@
+#fritata {
+    height: auto;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1, h3, .sub-heading .description {text-align: center;
+   font-family: 'Josefin Sans', sans-serif;
+
+}
+div {
+    display: block;
+    margin: 0 auto;
+    min-width: 400px;
+ 
+}
+.favorite-icon {
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.favorite-icon.favorited {
+    color: red;
+}
+.text-column{ font-family: Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.section-1{
+    margin-top: 20px;
+}
+.description {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .container img {
+    display: block;
+    width: 100%;
+  }
+  
+  .container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: white;
+  }
