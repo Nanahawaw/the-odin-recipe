@@ -31,7 +31,7 @@ section nav .logo img {
   margin: 5px 0;
   position: relative;
   top: 0;
-  right: 110x;
+  right: 50px;
 }
 section nav ul {
   list-style: none;
@@ -165,4 +165,48 @@ section p {
 }
 .about .about-text p span {
   color: rgb(242, 104, 0);
+}
+.subscribe-form {
+  display: flex;
+  width: 500px;
+  align-items: center;
+  position: relative;
+  bottom:400px;
+  left: 900px;
+  border: 1px solid;
+  padding:20px;
+
+}
+.Gallery {
+  width:100%;
+  padding: 70px 0;
+
+}
+.Gallery h2 {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Gallery h2 span {
+  color:rgb(242, 104, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 15px;
+}
+.Gallery .gallery-box {
+  width:95%;
+  margin: 10px auto;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+
+}
+.Gallery .gallery-box .gallery-image {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+}
+.Gallery .gallery-box .gallery-image img {
+  width:100%;
 }
