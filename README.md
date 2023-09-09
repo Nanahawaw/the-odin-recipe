@@ -28,9 +28,9 @@ The-odin-recipe/
         |-- main.css     # Main styling file
 ```
 
-<!--## Live Preview
+## Live Preview
 
-[Click here](#) to view the live version of the website. *(Replace the '#' with the actual live link if you host it somewhere.)*-->
+[Click here](#) to view the live version of the website.
 
 ## Technologies Used
 
